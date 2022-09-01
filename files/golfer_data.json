@@ -1,0 +1,414 @@
+[   
+    {
+        "fname": "Ali",
+        "lname": "Tlabela",
+        "profession": "IT Network Specialist",
+        "cellphone": "082 044 1919",
+        "email": "atlabela@rgc.com",
+        "photo": "ali.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Jabu",
+        "lname": "Sithole",
+        "profession": "Traffic Officer/Entepreneur",
+        "cellphone": "082 677 9847",
+        "email": "jsithole@rgc.com",
+        "photo": "jabu.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    },  
+    {
+        "fname": "Mxolisi",
+        "lname": "Tyawa",
+        "profession": "Advertizing/Media",
+        "cellphone": "083 325 9532",
+        "email": "mtyawa@rgc.com",
+        "photo": "mxolisi.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Jerry",
+        "lname": "Maleka",
+        "profession": "Businessman/Entrepenuer",
+        "cellphone": "083 987 5715",
+        "email": "jmaleka@rgc.com",
+        "photo": "jerry.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Sandile",
+        "lname": "Sibiya",
+        "profession": "N/A",
+        "cellphone": "083 781 9982",
+        "email": "ssibiya@rgc.com",
+        "photo": "sandile.jpg",
+        "home": "N/A",
+        "mystory": "Health fanatic and an enthusiastic road runner, also a passionate believer in Jesus Christ and the message of the gospel."
+    }, 
+    {
+        "fname": "Modise",
+        "lname": "Maseko",
+        "profession": "Businessman",
+        "cellphone": "076 721 9193",
+        "email": "mmaseko@rgc.com",
+        "photo": "modise.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    },  
+    {
+        "fname": "Coltrane",
+        "lname": "Munyai",
+        "profession": "Businessman/Entrepenuer",
+        "cellphone": "082 430 1972",
+        "email": "cmunyai@rgc.com",
+        "photo": "coltrane.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    },  
+    {
+        "fname": "Hendrik",
+        "lname": "Kekana",
+        "profession": "Entepreneur/Politician",
+        "cellphone": "082 903 9279",
+        "email": "hkekana@rgc.com",
+        "photo": "hendrik.jpg",
+        "home": "Need to know basis. Safety!!!",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Thabo",
+        "lname": "Parkies",
+        "profession": "IT Hardware Sales",
+        "cellphone": "084 661 0967",
+        "email": "tparkies@rgc.com",
+        "photo": "parkies.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Sipho",
+        "lname": "Mbelle",
+        "profession": "Businessman/Entrepenuer",
+        "cellphone": "071 875 6919",
+        "email": "smbelle@rgc.com",
+        "photo": "sipho.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Kgosi",
+        "lname": "Pule",
+        "profession": "Attorney/Businessman",
+        "cellphone": "083 600 9790",
+        "email": "kpule@rgc.com",
+        "photo": "kgosi.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Kenny",
+        "lname": "Mokoka",
+        "profession": "Accountant/Pastor",
+        "cellphone": "083 787 8300",
+        "email": "kmokoka@rgc.com",
+        "photo": "kenny.jpg",
+        "home": "N/A",
+        "mystory": "Still to be provided ..."
+    }, 
+    {
+        "fname": "Vincent",
+        "lname": "Sikhakhane",
+        "profession": "IT Hardware Sales",
+        "cellphone": "083 649 1122",
+        "email": "vsikhakhabe@rgc.com",
+        "photo": "vincent.jpg",
+        "home": "N/A",
+        "mystory": "Still to be pro.pngided ..."
+    },     
+    {
+        "fname": "Lehaiwa",
+        "lname": "Machaba",
+        "profession": "Software Developer",
+        "cellphone": "082 462 4897",
+        "email": "chippandenga@gmail.com",
+        "photo": "lehaiwa.jpg",
+        "home": "Centurion",
+        "mystory": "I am popularly known as Chippa Mamboshe because of my past prowess on the soccer field. In my latter years I have taken quite a liking for the game of golf. I love golf because it gives one the opportunity to clear ones mind of his worries for over 8 hours. This of course, includes the best part about playing golf, i.e. the 19th hole. It also provides you the opportunity to make new friends as you age gracefully."
+    },
+    {
+        "fname": "Ishmael",
+        "lname": "Mokhoka",
+        "profession": "Quantity Surveyor",
+        "cellphone": "083 411 3599",
+        "email": "imokhoka@rgc.com",
+        "photo": "MedalChampion2021.jpg",
+        "home": "Moreleta, Pretoria",
+        "mystory": "I am Soso Mokhoka, a native who grew up in Maokeng Kroonstad. I currently reside in Moreleta with my family. I am the  reigning OOM champion at RGC. I have worked hard on my game, spent countless hours at the driving range and the results are there for all to see. I love golf because it affords me the opportunity to stay out late at night and visit Perera and Cofi."
+    },
+    {
+        "fname": "Linda",
+        "lname": "Jakavula",
+        "profession": "uMfundisi (Moonlighting)",
+        "cellphone": "082 450 8692",
+        "email": "ljakavula@rgc.com",
+        "photo": "IPSChampion2021.jpg",
+        "home": "Not known",
+        "mystory": "I am Linda Jakavula and the reigning RGC IPS champion. Other than golfing, my other passion is my religion. I am also an ordained pastor in the 7th Day Adventist Church."
+    },
+    {
+        "fname": "Peter",
+        "lname": "Nkwe",
+        "profession": "ICT SAP Specialist",
+        "cellphone": "082 855 1460",
+        "email": "pnkwe@rgc.com",
+        "photo": "peter.jpg",
+        "home": "Pecanwood Golf Estate, Sedibeng"
+    },
+    {
+        "fname": "Masiza",
+        "lname": "Qutu",
+        "profession": "ICT Management",
+        "cellphone": "082 992 1104",
+        "email": "mqutu@rgc.com",
+        "photo": "masiza.jpg",
+        "home": "Country View, Midrand"
+    },
+    {
+        "fname": "Nathi",
+        "lname": "Mdladla",
+        "profession": "medical doctor(intensivist)",
+        "cellphone": "082 331 1551",
+        "email": "nmdladla@rgc.com",
+        "photo": "nathi.jpg",
+        "home": "Top secret"       
+    },
+    {
+        "fname": "Kgaogelo",
+        "lname": "Sebesho",
+        "profession": "Enteprenuer/Attorney",
+        "cellphone": "083 973 5608",
+        "email": "ksebesho@rgc.com",
+        "photo": "kgaogelo.jpg",
+        "home": "Glenvista, Johannesburg"
+    },
+    {
+        "fname": "Charles",
+        "lname": "Ngidi",
+        "cellphone": "083 286 7829",
+        "profession": "lawyer",
+        "email": "cngidi@rgc.com",
+        "photo": "charles.jpg",
+        "home": "Rondebult, Ekurhuleni"
+    },
+    {
+        "fname": "Malose",
+        "lname": "Mokgohloa",
+        "profession": "ICT Project Manager",
+        "cellphone": "082 770 8866",
+        "email": "mmokgohloa@rgc.com",
+        "photo": "malose.jpg",
+        "home": "Rooihuiskraaal, Centurion"
+    },
+    {
+        "fname": "Ngakane",
+        "lname": "Nong",
+        "cellphone": "082 633 3210",
+        "profession": "Pharmaceuticals Procurement/Hustler",
+        "email": "nnong@rgc.com",
+        "photo": "ngakane.jpg",
+        "home": "Moreleta, Pretoria"        
+    },
+    {
+        "fname": "Assa",
+        "lname": "Blanket",
+        "profession": "Construction",
+        "cellphone": "078 679 6743",
+        "email": "ablanket@rgc.com",
+        "photo": "assa.jpg",
+        "home": "N/A"
+    },
+    {
+        "fname": "Ronald",
+        "lname": "Swazi",
+        "profession": "ICT ???",
+        "cellphone": "082 992 3193",
+        "email": "rswazi@rgc.com",
+        "photo": "ronald.jpg",
+        "home": "eMashona, Roodepoort"
+    },
+    {
+        "fname": "Rams",
+        "lname": "Mabote",
+        "profession": "Media Personality/PR Consultant",
+        "cellphone": "084 666 0566",
+        "email": "rmabote@rgc.com",
+        "photo": "rams.jpg",
+        "home": "eMashona, Wild West, Soweto"
+    },
+    {
+        "fname": "Tagishi",
+        "lname": "Mashego",
+        "profession": "famiy doctor",
+        "cellphone": "082 372 3037",
+        "email": "tmashego@rgc.com",
+        "photo": "tagishi.jpg",
+        "home": "Kempton Park"
+    },
+    {
+        "fname": "John",
+        "lname": "Segoati",
+        "cellphone": "082 457 0382",
+        "profession": "medical doctor(anaesthetist)",
+        "email": "jsegoati@rgc.com",
+        "photo": "john.jpg",
+        "home": "Waterkloof, Pretoria"        
+    },
+    {
+        "fname": "Sibusiso",
+        "lname": "Simelane",
+        "profession": "N/A",
+        "cellphone": "064 653 6380",
+        "email": "ssimelane@rgc.com",
+        "photo": "subusiso.jpg",
+        "home": "Unkwown"
+    },
+    {
+        "fname": "Mahapa",
+        "lname": "Mpitso",
+        "profession": "Hustler/Politician???",
+        "cellphone": "082 730 4112",
+        "email": "mmpitso@bigsa.co.za",
+        "photo": "mahapa.jpg",
+        "home": "For safety, Not disclosed"
+    },
+    {
+        "fname": "Collen",
+        "lname": "Macheke",
+        "profession": "Businessman/Enterpreneur",
+        "cellphone": "063 363 2801",
+        "email": "cmacheke@rgc.com",
+        "photo": "collen.jpg",
+        "home": "Mahikeng"
+    },
+    {
+        "fname": "Themba",
+        "lname": "Fundzani",
+        "profession": "ICT Management (Retired)",
+        "cellphone": "083 376 6667",
+        "email": "tfundzani@rgc.com",
+        "photo": "themba.jpg",
+        "home": "Pretoria"
+    },
+    {
+        "fname": "Itumeleng",
+        "lname": "Motloung",
+        "profession": "medical doctor",
+        "cellphone": "083 644 2887",
+        "email": "itumelengm@rgc.com",
+        "photo": "itumeleng.jpg",
+        "home": "Bedfordview, Johannesburg"
+    },
+    {
+        "fname": "Dockie",
+        "lname": "Wessie",
+        "cellphone": "082 452 1581",
+        "profession": "unknown",
+        "email": "dockiew@rgc.com",
+        "photo": "dockie.jpg",
+        "home": "Not available"        
+    },
+    {
+        "fname": "Justice",
+        "lname": "Ndaba",
+        "profession": "Hustler",
+        "cellphone": "060 743 6640",
+        "email": "justicen@rgc.com",
+        "photo": "justice.jpg",
+        "home": "Top secret"
+    },
+    {
+        "fname": "Abbey",
+        "lname": "Matlala",
+        "profession": "ITC Network Specialist",
+        "cellphone": "082 742 5398",
+        "email": "abbeym@rgc.com",
+        "photo": "abbey.jpg",
+        "home": "Unknown"
+    },
+    {
+        "fname": "Thabisho",
+        "lname": "Malatji",
+        "profession": "Engineer/Entrepenuer",
+        "cellphone": "063 789 9664",
+        "email": "thabisho@rgc.com",
+        "photo": "thabisho.jpg",
+        "home": "Lephalale, Phalaborwa"
+    },  
+    {
+        "fname": "Lucas",
+        "lname": "Mogashoa",
+        "profession": "ITC Security Consultant",
+        "cellphone": "0820120013",
+        "email": "lucasm@rgc.com",
+        "photo": "lucas.jpg",
+        "home": "Somewhere in Pretoria"
+    },
+    {
+        "fname": "Edwin",
+        "lname": "Moremi",
+        "profession": "ITC Security Consultant/Farmer",
+        "cellphone": "082 602 0636",
+        "email": "edwinm@rgc.com",
+        "photo": "edwin.jpg",
+        "home": "Midrand"
+    },
+    {
+        "fname": "Lisa",
+        "lname": "Noto",
+        "cellphone": "079 545 9456",
+        "profession": "Ayiaziwa ke le?",
+        "email": "lnoto@rgc.com",
+        "photo": "lisa.jpg",
+        "home": "West Rand?"        
+    },
+    {
+        "fname": "Mlungisi",
+        "lname": "Tshangela",
+        "profession": "Construction",
+        "cellphone": "082 561 2310",
+        "email": "mlungisit@rgc.com",
+        "photo": "mlungisi.jpg",
+        "home": "Glenvista"
+    },
+    {
+        "fname": "Ratshidi",
+        "lname": "Rammutla",
+        "profession": "neurosurgeon",
+        "cellphone": "064 899 5493",
+        "email": "ratshidir@rgc.com",
+        "photo": "ratshidi.jpg",
+        "home": "Weskopies"
+    },
+    {
+        "fname": "Reatile",
+        "lname": "Litlake",
+        "profession": "ICT Hardware Specialist/Hustler",
+        "cellphone": "082 883 2142",
+        "email": "reatilel@rgc.com",
+        "photo": "reatile.jpg",
+        "home": "eMashona, Roodeport"
+    },
+    {
+        "fname": "Mmamathe",
+        "lname": "Makhekhe",
+        "profession": "ITC Consultant",
+        "cellphone": "083 628 2720",
+        "email": "mmamathem@rgc.com",
+        "photo": "mmamathe.jpg",
+        "home": "Moreleta, Pretoria"
+    }
+]

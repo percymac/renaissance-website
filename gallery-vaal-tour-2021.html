@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Our Gallery Renaissance Social Golf Club</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+        <link rel="stylesheet" href="./css/rgc_gallery_style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-center">
+            <!-- nav header-->
+            <div class="nav-header">
+                <h3>renaissance golf club</h3>
+            </div>
+        
+            <!-- links -->
+            <ul class="links">
+                <li><a href="index.html">about us</a></li>
+                <li><a href="schedule.html">our schedule</a></li>
+                <li class="our-galleries"><a href="#">our galleries</a>
+                    <img class="img" src="images/triangle-down.png" alt=""> 
+                    <ul class="gallery-sub-menu" >
+                        <li><a href="gallery-vaal-tour-2021.html">vaal tour 2021</a></li>
+                        <li><a href="gallery-prize-giving-2021.html">prize giving 2021</a></li>
+                        <li><a href="gallery.html">show all galleries</a></li>
+                    </ul>
+                    
+                </li>
+                <li><a href="competitions.html">our competitions</a></li>
+                <li><a href="contact.html">contact us</a></li>
+            </ul>
+            </div>
+        </nav>
+
+        <div class="gallery-container">    
+            <h3>vaal tour 2021 gallery</h3>
+            <!-- images to be populated dynamically in js-->
+            <div id="gallery"></div>
+        </div>
+
+        <!-- the selected image that will be expanded to prominance-->
+        <div id="gallery-popup">
+            <img src="" alt="" id="gallery-selected-image">
+        </div>
+
+        <script src="./javascript/js_vaaltour2021.js"></script>
+    </body>
+</html>

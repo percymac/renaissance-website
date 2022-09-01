@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Renaissance Social Golf Club</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/rgc_schedule_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+</head>
+
+<body>    
+    <nav>
+        <div class="nav-center">
+        <!-- nav header-->
+        <div class="nav-header">
+            <h3>renaissance golf club</h3>
+        </div>
+
+        <!-- links -->
+        <ul class="links">
+            <li><a href="index.html">about us</a></li>
+            <li><a href="schedule.html"> our schedule</a></li>
+            <li><a href="gallery.html">our gallery</a></li>
+            <li><a href="competitions.html">our competitions</a></li>
+            <li><a href="contact.html">contact us</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="schedule-container">    
+        <div class="file-selector hide-me">
+            <input class="form-control" type="file" id="input" accept=".xls, .xlsx">
+        </div>
+
+        <table>
+            <tr><th></th><th>RGC Schedule For The Year 2022</th><th></th></tr>
+            <tr class="col-label"><td>Date</td><td>Golf Course</td><td>Game Decsription</td></tr>
+            <tr><td>30 Jan 2022</td><td><a href="http://www.benonicc.co.za">Benoni Country</a></td><td class="game">Medal 1</td></tr> 
+            <tr><td>27 Mar 2022</td><td><a href="https://www.wingateparkcountryclub.co.za">Wingate Country Club</a></td><td class="game">Medal 2</td></tr>                                           
+            <tr><td>10 Apr 2022</td><td><a href="https://kyalamigolf.co.za">Kyalami Country Club</a></td><td class="game">Medal 3</td></tr> 
+            <tr><td>24 Apr 2022</td><td><a href="https://www.krugersdorpgc.com">Krugersdorp Golf Course</a></td><td class="game">IPS 1</td></tr>
+            <tr><td>28 May 2022</td><td><a href="https://www.rtbgolfclub.com">Rustenburg Golf Course</a></td><td class="game">Medal 4</td></tr> 
+            <tr><td>29 May 2022</td><td><a href="https://www.rtbgolfclub.com">Rustenburg Golf Course</a></td><td class="game">IPS 2</td></tr>
+            <tr><td>26 Jun 2022</td><td><a href="https://www.ruimsigcc.co.za">Ruimsig Golf Course</a></td><td class="game">Medal 5</td></tr> 
+            <tr><td>24 Jul 2022</td><td><a href="https://www.wanderersgolfclub.com">Wanderers Golf Course</a></td><td class="game">Medal 6</td></tr>
+            <tr><td>29 Aug 2022</td><td><a href="https://www.magaliespark.co.za">Magalies Park Country Club</a></td><td class="game">IPS 3</td></tr> 
+            <tr><td>25 Sep 2022</td><td>Not booked yet...</td><td class="game" >Medal 7</td></tr>
+            <tr><td>30 Oct 2022</td><td>Not booked yet...</td><td class="game">Champ Of Champs</td></tr> 
+            <tr><td>18 Nov 2022</td><td><a href="https://www.wrcc.co.za">White River Country Club</a></td><td class="game">Medal 8</td></tr>
+            <tr><td>19 Nov 2022</td><td><a href="https://www.wrcc.co.za">White River Country Club</a></td><td class="game">IPS 4</td></tr> 
+            <tr><td>04 Dec 2022</td><td><a href="https://www.irenecc.co.za">Irene County Club</a></td><td class="game">Tubs Memorial Whisky</td></tr>
+        </table>        
+    </div>
+        
+    <div class="game-result hide-me">
+        <div class="results-heading">test results heading</div>
+        <div class="results">
+            <ul id="ordered-list">
+                <!--
+                <li class="list-item">
+                    <span class="name">Test Golfer</span>
+                    <span class="score">99</span>
+                </li>
+                -->
+            </lu>
+        </div>
+        <div class="btn">
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+    
+<script src="./javascript/js_rgc_schedule.js"></script>
+</body>
+</html>

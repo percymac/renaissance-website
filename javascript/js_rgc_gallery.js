@@ -13,7 +13,7 @@ imageIndexes.forEach((ind) => {
     image.addEventListener('click', () => {
         // on clicking the image, the image pops up
         popup.style.transform = `translateY(0)`;
-        selectedImage.src = `/images/gallery/gallery-${ind}.jpg`;
+        selectedImage.src = `./images/gallery/gallery-${ind}.jpg`;
     });
     gallery.appendChild(image);
 });

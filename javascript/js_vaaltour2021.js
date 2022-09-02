@@ -7,13 +7,13 @@ const selectedIndex = null;
 
 imageIndexes.forEach((ind) => {
     const image = document.createElement('img');
-    image.src = `/images/vaal-tour-2021/gallery-${ind}.jpg`;
+    image.src = `./images/vaal-tour-2021/gallery-${ind}.jpg`;
     image.classList.add('gallery-img');
     
     image.addEventListener('click', () => {
         // on clicking the image, the image pops up
         popup.style.transform = `translateY(0)`;
-        selectedImage.src = `/images/vaal-tour-2021/gallery-${ind}.jpg`;
+        selectedImage.src = `./images/vaal-tour-2021/gallery-${ind}.jpg`;
     });
     gallery.appendChild(image);
 });

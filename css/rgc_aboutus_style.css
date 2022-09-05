@@ -66,12 +66,10 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  max-width: 1530px;
   font-family: var(--ff-secondary);
   background: var(--clr-primary-10);
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-10);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -148,11 +146,7 @@ p {
     width: 95vw;
   }
 }
-main {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
+
 
 /*
 =============== 
@@ -169,7 +163,10 @@ nav {
   justify-content:space-between;
   padding: 1rem;
 }
-
+.links {
+  height: auto;
+  display: flex;
+}
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
@@ -184,19 +181,13 @@ nav {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
+
 .social-icons {
   display: none;
 }
-.links {
-  height: 0;
-  overflow: hidden;
-  transition: var(--transition);
-}
-.show-links {
-  height: 10rem;
-}
 
-/** ----- contact HTML stylesheet -----**/
+
+/* ------------- home page HTM stylesheet ------------ */
 .background-container {
   background-image: url("../images/beautiful-golf-course-7.png");
   background-repeat: no-repeat;
@@ -205,69 +196,51 @@ nav {
   background-size:cover;  
 }
 
-.date-time-location {
+.main {
+  min-height: 100vh;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 15px;
+  padding: 10px;
+}
+
+.leftcolumn, .rightcolumn {
+  border: 2px solid var(--clr-grey-7);
+  border-radius: 7px;
+  box-shadow: 0px 10px 15px 0px;
   color: var(--clr-grey-5);
-  font-size: 18px;
-  font-weight: bold;
+  padding: 20px;
+  background: var(--clr-primary-10);
+}
+
+ h4 {
+  text-align: center;
+  font-family: 'Comic Sans MS', 'Segoe Script';
+  font-size: 20px;
+}
+
+.fakeimg {
   display: flex;
-  justify-content: space-evenly;
-  margin: 5px 20px;
-  padding: 0px;
+  justify-content: center;
+  margin: 10px;
+}
+img {
+  box-shadow: 0px 5px 5px 0px;
+}
+.exco-members, .rules, .golf-courses {
+  margin-left: 50px;
+  list-style-type: lower-roman;
+}
+.need-to-know {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 2px solid var(--clr-grey-7);
 }
 
 
-.contact-container {
-  /*border: 2px solid var(--clr-grey-8);*/
-  border-radius: 20px;
-  margin: 10px 50px;
-  padding: 30px 180px;
-  letter-spacing: var(--spacing);
-  text-transform: capitalize;
-  line-height: 1.25;
-  font-family: var(--ff-primary);
-  color: white;
-  align-items: center;
-}
+/* ------------ end of home page stylesheet ------------ */
 
-input[type=text], select {
-  width: 60%;
-  padding: 10px 20px;
-  margin: 2px 0 15px 0;
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit], input[type=reset] {
-  width: 30%;
-  background-color: var(--clr-primary-3);
-  color: white;
-  padding: 10px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover, input[type=reset]:hover {
-  background-color: var(--clr-primary-5);
-  font-size: 18px;
-}
-
-#txt-area-msg {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;  
-}
-.contact-submit {    
-    display:flex;
-    margin-top: 25px;
-    justify-content:  space-evenly;
-    background:none;
-}
-
-/** ----- end of contact stylesheet ----- **/
 
 @media screen and (min-width: 850px) {
   .nav-center {
@@ -281,6 +254,7 @@ input[type=submit]:hover, input[type=reset]:hover {
   .nav-header {
     padding: 0;
   }
+
   .links {
     height: auto;
     display: flex;

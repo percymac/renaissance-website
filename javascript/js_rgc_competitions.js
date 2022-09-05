@@ -17,5 +17,3 @@ sidebarToggleButton.addEventListener('click', function () {
 closeButton.addEventListener('click', function(){
   sidebarMenu.classList.remove('show-sidebar');
 });
-
-

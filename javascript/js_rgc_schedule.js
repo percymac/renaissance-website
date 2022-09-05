@@ -8,7 +8,7 @@ const closeButton = document.querySelector('.close-btn');
 
 let selectedGame = '';
 let thisGameDesc = '';
-let scheduleFile = '';
+let scheduleFile = ''; /*files/MyRGC2022.xlsx';*/
 
 // function to sort array objects by property valiue
 function compareScores(a, b) {
@@ -49,6 +49,7 @@ function createListItems (thisGolfersName, thisGolfersScore) {
 
 function displayGameResult() {
     if (scheduleFile) {
+        console.log(scheduleFile);
         fileSelector.classList.add('hide-me')
         let fileReader = new FileReader();
         fileReader.readAsBinaryString(scheduleFile);

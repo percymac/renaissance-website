@@ -183,8 +183,8 @@ nav {
 
 nav img {
   margin-top: 4px;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   color: var(--clr-grey-3);
 }
 
@@ -193,7 +193,7 @@ nav ul ul {
   border-radius: 0px 0px 5px 5px;
   display: none;
   position: absolute;
-  width: 200px;
+  width: 220px;
   top: 25px;
   left:0;
   z-index: 1
@@ -239,6 +239,7 @@ nav ul li:hover .img {
 
 .gallery-img {
   max-width: 100%;
+  height: auto;
   border-radius: 10px;
   position: relative;
   transition: transform 500ms;

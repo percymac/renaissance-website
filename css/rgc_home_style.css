@@ -182,48 +182,50 @@ nav {
   padding-left: 1.5rem;
 }
 
-.social-icons {
-  display: none;
-}
-
 
 /* ------------- home page HTM stylesheet ------------ */
-.main {
-  min-height: 100vh;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-  margin: 15px;
-  padding: 10px;
+.background-container {
+  background-image: url("../images/beautiful-golf-course-7.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size:cover;  
 }
 
-.leftcolumn, .rightcolumn {
-  border: 2px solid var(--clr-grey-7);
-  color: var(--clr-grey-5);
+.main {
+  /*border: 1px solid red;*/
+  color:var(--clr-grey-5);
+  height: auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-rows: 1fr 2fr 2fr;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.date-time-location {
+  color:var(--clr-grey-5);
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content:space-around;
+  margin: 5px 20px;
   padding: 20px;
 }
 
- h4 {
-  text-align: center;
-  font-family: 'Comic Sans MS', 'Segoe Script';
-  font-size: 20px;
-}
-
-.fakeimg {
-  display: flex;
+.line-1, .line-2{
+  /*border: 2px solid blue;*/
+  color:var(--clr-grey-5);
+  display:flex;
   justify-content: center;
-  margin: 10px;
-}
-.exco-members, .rules, .golf-courses {
-  margin-left: 50px;
-  list-style-type: lower-roman;
-}
-.need-to-know {
-  margin-top: 25px;
-  padding-top: 20px;
-  border-top: 2px solid var(--clr-grey-7);
+  align-items: center;
+  color: white;
 }
 
+.line-2 {
+  margin-top: 0px;
+}
 
 /* ------------ end of home page stylesheet ------------ */
 

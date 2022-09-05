@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Renaissance Social Golf Club</title>
+    <title>Renaissance Golf Club</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/rgc_contact_style.css">
 </head>
 
 <body>
-  <nav>
-    <div class="nav-center">
-      <!-- nav header-->
-      <div class="nav-header">
-        <h3>contact - renaissance golf club</h3>
-      </div>
+  <div class="background-container">
 
-      <!-- links -->
-      <ul class="links">
-        <li><a href="index.html">about us</a></li>
-        <li><a href="schedule.html">our schedule</a></li>
-        <li><a href="gallery.html">our gallery</a></li>
-        <li><a href="competitions.html">our competitions</a></li>
-        <li><a href="contact.html">contact us</a></li>
-      </ul>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header-->
+        <div class="nav-header">
+          <h3>renaissance golf club</h3>
+        </div>
+
+        <!-- links -->
+        <ul class="links">
+          <li><a href="index.html">our home</a></li>
+          <li><a href="aboutus.html">about us</a></li>
+          <li><a href="schedule.html">our schedule</a></li>
+          <li><a href="gallery.html">our gallery</a></li>
+          <li><a href="competitions.html">our competitions</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="date-time-location">
+        <div class="date"></div>
+        <div class="time"></div>
+        <div class="location"></div>
     </div>
-  </nav>
-  <div class="date-time-location">
-      <div class="date"></div>
-      <div class="time"></div>
-      <div class="location"></div>
-  </div>
-  <div class="contact-container">
-    <form name="contact-form" onsubmit="return validateForm()">
-      <section class="name-surname">
-        <div><label for="fname" class="lbl-fname">first name</label></div>
-        <div class="txt-fname"><input id="fname" type="text" max="20" name="fname" placeholder="your first name..."></div>
-        <div class="lbl-surname">surname</div>
-        <div class="txt-surname"><input type="text" max="20" name="surname" placeholder="your surname..."></div>
-      </section>
+    
+    <div class="contact-container">
+      <form name="contact-form" onsubmit="return validateForm()">
+        <section class="name-surname">
+          <div><label for="fname" class="lbl-fname">first name</label></div>
+          <div class="txt-fname"><input id="fname" type="text" max="20" name="fname" placeholder="your first name..."></div>
+          <div class="lbl-surname">surname</div>
+          <div class="txt-surname"><input type="text" max="20" name="surname" placeholder="your surname..."></div>
+        </section>
 
-      <section class="cell-email">
-        <div><label for="cellno" class="lbl-cellphone">Cellphone</label></div>
-        <div class="txt-cellphone"><input id="cellno" type="text" name="cellphone" placeholder="your cellphone no..." ></div>
-        <div class="lbl-email">email</div>
-        <div class="txt-email"><input type="text" name="email" placeholder="your email..."></div>
-      </section>
+        <section class="cell-email">
+          <div><label for="cellno" class="lbl-cellphone">Cellphone</label></div>
+          <div class="txt-cellphone"><input id="cellno" type="text" name="cellphone" placeholder="your cellphone no..." ></div>
+          <div class="lbl-email">email</div>
+          <div class="txt-email"><input type="text" name="email" placeholder="your email..."></div>
+        </section>
 
-      <section class="prov-msg">
+        <section class="prov-msg">
 
-        <div><label for="prov" class="lbl-prov">province</label></div>
-        <!--
-          <div class="txt-prov"><input id="prov" type="text" max="25" name="province" placeholder="select from list..."></div>
-        -->
-        <div class="sel-prov">
-          <select id="prov" name="province" value="Gauteng">
-            <option value="Gauteng">Gauteng</option>
-            <option value="Limpopo">Limpopo</option>
-            <option value="Koloni">Koloni</option>
-            <option value="Free State">Free State</option>
-            <option value="Bokone Bophirima">Bokone Bophirima</option>
-            <option value="Mpumalanga">Mpumalanga</option>
-            <option value="Kwazulu">Kwazulu</option>
-            <option value="Kapa Bokone">Kapa Bokone</option>
-            <option value="Ntshona Koloni">Ntshona Koloni</option>
-          </select>
+          <div><label for="prov" class="lbl-prov">province</label></div>
+          <!--
+            <div class="txt-prov"><input id="prov" type="text" max="25" name="province" placeholder="select from list..."></div>
+          -->
+          <div class="sel-prov">
+            <select id="prov" name="province" value="Gauteng">
+              <option value="Gauteng">Gauteng</option>
+              <option value="Limpopo">Limpopo</option>
+              <option value="Koloni">Koloni</option>
+              <option value="Free State">Free State</option>
+              <option value="Bokone Bophirima">Bokone Bophirima</option>
+              <option value="Mpumalanga">Mpumalanga</option>
+              <option value="Kwazulu">Kwazulu</option>
+              <option value="Kapa Bokone">Kapa Bokone</option>
+              <option value="Ntshona Koloni">Ntshona Koloni</option>
+            </select>
+          </div>
+
+          <div class="lbl-msg">message?</div>
+          <div class="txt-msg">
+            <textarea id=txt-area-msg rows = "5" cols = "100" name="message">Type your message here...
+            </textarea>
+          </div>
+        </section>
+
+        <div class="contact-submit">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Clear">
         </div>
-
-        <div class="lbl-msg">message?</div>
-        <div class="txt-msg">
-          <textarea id=txt-area-msg rows = "5" cols = "100" name="message">Type your message here...
-          </textarea>
-        </div>
-      </section>
-
-      <div class="contact-submit">
-        <input type="submit" value="Submit">
-        <input type="reset" value="Clear">
-      </div>
-    </form>
+      </form>
+    </div>
 
   </div>
 
